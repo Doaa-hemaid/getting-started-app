@@ -31,5 +31,5 @@ jobs:
         context: .
         push: true
         tags: |
-          quay.io/doaa_hemaid/getting-started
-          quay.io/doaa_hemaid/getting-started
+          ghcr.io/${{ github.repository_owner }}/getting-started:latest
+          ghcr.io/${{ github.repository_owner }}/getting-started:${{ github.sha }}

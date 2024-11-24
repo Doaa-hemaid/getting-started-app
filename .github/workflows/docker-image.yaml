@@ -31,5 +31,5 @@ jobs:
         context: .
         push: true
         tags: |
-          ghcr.io/getting-started:latest
-          ghcr.io/getting-started:${{ github.sha }}
+          ghcr.io/doaahemaid/getting-started:latest
+          ghcr.io/getting-started
